@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Focus Guardian</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h1>Focus Guardian</h1>
+
+  <label for="duration">Focus Duration (mins):</label>
+  <input type="number" id="duration" value="30" min="5" max="120" />
+
+  <button id="startFocus">Start Focus Session</button>
+  <button id="stopFocus">Stop</button>
+
+  <div id="countdown"></div>
+  <div id="stats"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
